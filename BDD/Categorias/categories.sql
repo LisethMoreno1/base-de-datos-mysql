@@ -1,3 +1,4 @@
+-- Creación de la tabla categoria
 CREATE TABLE `BDDPROYECTO`.`categoria` (
     `id_categoria` INT PRIMARY KEY,
     `nombre_categorias` VARCHAR(100),
@@ -6,6 +7,7 @@ CREATE TABLE `BDDPROYECTO`.`categoria` (
     `fecha_eliminacion` DATETIME NULL
 );
 
+-- Inserción de datos en la tabla categoria
 INSERT INTO
     `BDDPROYECTO`.`categoria` (
         id_categoria,
